@@ -1,0 +1,396 @@
+@font-face {
+    font-family: ansar; 
+    src: url("fonts\PatuaOne-Regular.ttf"); 
+   }
+
+   @font-face {
+    font-family: ansar2; 
+    src: url("fonts\TenaliRamakrishna-Regular.ttf"); 
+   }
+
+   @font-face {
+    font-family: ansar3; 
+    src: url("/fonts/SongMyung-Regular.ttf"); 
+   }
+header{
+    display: flex;
+    position: sticky;
+    top:0;
+    background-color: rgb(228, 201, 127);
+    
+}
+
+
+nav{
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    display: flex;
+    
+}
+nav p{
+    width: 120px;
+    margin-left: 70px;
+    text-align: center;
+   
+
+
+}
+.button2 {
+    background-color: #d30606;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.button1 {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(12, 12, 12);
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.all_butons {
+    margin-left: 300px;
+    width: 300px;
+    
+}
+
+
+
+
+
+
+
+slider h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 80px;
+}
+
+slider span{
+    
+    color: darksalmon;
+}
+.full{
+    margin-left: 120px;
+}
+
+.text.but_slider {
+    font-weight: lighter;
+    display: inline-block;
+    margin-left: 150px;
+    
+    
+}
+
+slider img {
+    display: flex ;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    width: 650px;
+    
+}
+
+.center_slider{
+    display: flex;
+}
+.button3{
+    background-color: #c74c4c;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+slider p{
+    font-family: ansar;
+}
+
+.sec_center{
+    font-family: ansar2;
+    font-size:32px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 350px;
+}
+
+.all_imgs{
+    display: flex;
+    width: 150px;
+    
+}
+
+.room1{
+margin-right: 100px;
+}
+
+.room2{
+    margin-right: 100px;
+    margin-top: 85px;
+    }
+
+.room3{
+margin-right: 100px;
+}
+
+.right_text{
+    font-weight: lighter;
+    display: block;
+    position: relative;
+    left: 750px;
+    bottom: 650px;
+    font-family: ansar3;
+    line-height: 30px;
+    
+}
+.cen_f_mid{
+    display: inline-flexbox ;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    width: 650px;
+    
+    font-size: 25px;
+    
+
+}
+.button4{
+    background-color: #c74c4c;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    left: 750px;
+    bottom: 550px;
+}
+
+.text_mid{
+    font-family: ansar;
+    font-size: 15px;
+    margin-top: 300px;
+    
+}
+
+.part1::before{
+    content:  url(images/icon1.png);
+    float: left;
+    position: relative;
+}
+.part2::before{
+    content:  url(images/icon2.png);
+    float: left;
+    position: relative;
+}
+.part3::before{
+    content:  url(images/icon3.png);
+    float: left;
+    position: relative;
+}
+
+.beneath{
+    background-color: rgb(238, 238, 238);
+}
+
+.text_cont{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    display: flex;
+    margin-left: 250px;
+}
+
+.text_under{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 25px;
+display: inline-block;
+margin-left :700px;
+
+
+
+}
+
+.text_foot{
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 20px;
+margin-left: 700px;
+
+}
+
+
+.text_under img{
+    
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+.text_pre{
+display: inline-block;
+margin-top: 200px;
+margin-left: 400px;
+}
+
+.button5{
+    background-color: #c74c4c;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.img_pre{
+    width: 50px;
+    display: block;
+    margin-left: 100px;
+}
+
+.pre_foot{
+    display: flex;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(236, 236, 236); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #000000;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #000000; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#af4f4f; }
+
+#subject_input{
+    color:rgb(0, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #000000;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+
+.text_contact h1 {
+font-family: ansar;
+display: block;
+margin-left: 50px;
+}
+.text_contact p{
+    font-family: ansar3; 
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+.contact{
+    display: flex;
+}
+
+
+.images_pre{
+    display: flex;
+    height: 60px;
+    margin-left: 30px;
+   
+}
+.images_pre img{
+margin-left: 100px;
+}
+
+.text_pre_footer{
+    font-family: ansar;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+footer{
+    display: flex;
+    margin-top: 200px;
+}
+footer p{
+    margin-left: 120px;
+    font-size: 20px;
+    font-display: center;
+    font-family: ansar2;
+}
+.low_logo{
+    margin-left: 600px;
+}
